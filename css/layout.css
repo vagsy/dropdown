@@ -1,0 +1,190 @@
+/*search start*/
+
+.search-group .search-hight {
+    position: relative;
+    top: 17px;
+    left: 20px;
+    font-size: 16px;
+    color: #4CA4EB;
+    cursor: pointer;
+}
+
+.search-group .suggestion a:visited {
+    color:#741274
+}
+
+.search-group .suggestion {
+    position:absolute;
+    border:1px solid #b5b5b5;
+    background-color:#efefef;
+    top: 70px;
+    left: 0;
+    font-size:13px;
+    z-index:2;
+    display: none;
+}
+.search-group .suggestion * {
+    zoom:1
+}
+.search-group .suggestion a {
+    outline:0
+}
+.search-group .suglist {
+    width:232px;
+    _width:225px;
+    list-style:none;
+    font-size:14px;
+    line-height:28px;
+    float:left;
+    overflow:hidden
+}
+.search-group .suglist li {
+    padding:0 9px;
+    cursor:pointer;
+    zoom:1;
+    position:relative;
+    white-space:nowrap;
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    word-wrap:normal;
+    -ms-word-break:normal;
+    word-break:normal;
+    color: #000;
+}
+.search-group .suglist li:hover {
+    background-color:#F0F0F0
+}
+.search-group .suglist li em.n0 {
+    width:15px;
+    height:15px;
+    margin:0 9px 0 0;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative
+}
+.search-group .slhover,.suglist li.over {
+    background:#f3f3f3
+}
+.search-group .suginner {
+    zoom:1
+}
+.search-group .nobg .suginner,.search-group .suginner {
+    background:#fff
+}
+.search-group .nobg .suglist {
+    width:300px;
+}
+.search-group .suginner_nobg {
+    background:0
+}
+.search-group .suginner:after {
+    clear:both;
+    content:" ";
+    visibility:hidden;
+    overflow:hidden;
+    height:0;
+    display:block
+}
+.search-group .sugc * {
+    margin:0
+}
+.search-group .sugc {
+    float:left;
+    width:415px;
+    _width:407px;
+    height:17pc;
+    padding-top:13px;
+    border-left:1px solid #f0f0f0
+}
+.search-group .sugc a {
+    text-decoration:none;
+    color:#00c
+}
+.search-group .sugc a:hover {
+    text-decoration:underline
+}
+.search-group .sugc a:visited {
+    color:#741274
+}
+.search-group .sugtop {
+    display:block;
+    padding-bottom:3px;
+    margin-bottom:6px;
+    zoom:1
+}
+.search-group .sugtop:hover {
+    background-color:#eceef2
+}
+.search-group .sugtype {
+    line-height:30px;
+    font-size:14px;
+    font-weight:400
+}
+.search-group .sugctitle,.search-group .sugctitle a {
+    color:#646464
+}
+
+
+.search-group .suginner a em {
+    text-decoration:none
+}
+
+
+
+/*search end*/
+
+
+/*result start*/
+
+#pagelet-searchbar {
+    padding-top: 20px;
+    padding-bottom: 22px;
+    margin-right: 0;
+    font-size: 18px;
+    position: relative;
+}
+
+#pagelet-searchbar .search {
+    float: left;
+    border: 1px solid #4398ED;
+    border-right: 0;
+    width: 160px;
+    padding: 0 16px 0 41px;
+    background: url(../images/search_ic_search_normal.png) 15px 12px no-repeat;
+}
+
+#pagelet-searchbar .search input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    height: 22px;
+    line-height: 18px;
+    padding: 8px 0;
+    color: #5d5d5d;
+}
+
+#pagelet-searchbar .search-btn {
+    cursor: pointer;
+    float: left;
+    width: 82px;
+    border: 1px solid transparent;
+    background-color: #4398ED;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center
+}
+
+#pagelet-searchbar .search-btn:hover {
+    background-color: #3C89D5;
+    -moz-box-shadow: 0 2px 4px rgba(229, 94, 66, 0.4);
+    -webkit-box-shadow: 0 2px 4px rgba(229, 94, 66, 0.4);
+    box-shadow: 0 2px 4px rgba(229, 94, 66, 0.4)
+}
+
+#pagelet-searchbar .search-btn:active {
+    background-color: #3C89D5;
+    box-shadow: none !important
+}
